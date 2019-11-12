@@ -35,7 +35,7 @@ pygame, threading, random, time 등 (필요하면 이후에 추가할 예정)
 
 ## 8. **분업 계획**
 이제현: 게임 규칙에 관련된 코딩
-이준성: Client-Server 및 Threading 관련 코딩
+이준성: Socket 및 Threading 관련 코딩
 
 ## 9. 기타
 
