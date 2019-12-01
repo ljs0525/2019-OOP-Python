@@ -33,6 +33,8 @@ while True:
     random.shuffle(blue_card)
 
     print("Hello, this is the INDIAL HOLDEM!")
+    print("초기 칩 개수 = 40")
+    print("자세한 룰은 더 지니어스 편울 보고 오세요!")
     print("Please write your name!")
 
     b = 0
@@ -86,6 +88,9 @@ while True:
         print("===============You can't see!=============")
 
     print("Game Start!")
+
+    redplayer.chip = 40
+    blueplayer.chip = 40
 
     while True:
 
@@ -211,7 +216,7 @@ while True:
             flag2 = 1
 
         elif rep == 'N':
-            flag2 = 1
+            exit()
             break
 
         else:
